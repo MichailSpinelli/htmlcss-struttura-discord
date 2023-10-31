@@ -3,3 +3,152 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.debug{
+    height: 1000px;
+}
+.container{
+    background-color: aqua;
+    height: 10%;
+}
+
+.logo-container{
+    text-align: center;
+    display: flex;
+    padding-left: 400px;
+}
+
+.logo{
+    border: solid;
+    align-items:flex-start ;
+    padding-right: 200px;
+    background-color: yellow;
+}
+
+.link{
+    border: solid;
+    align-items:center;
+    padding-right: 200px;
+    background-color: yellow;
+}
+
+
+.login{
+    border: solid;
+    align-items:flex-end;
+    padding-right: 200px;
+    background-color: yellow;
+}
+
+/*
+    MAIN
+*/
+
+.riquadro1{
+    background-color: blue;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.riquadrointerno1{
+    width: 60%;
+    height: 80%;
+    background-color: pink;
+    align-items: center;
+    height: 300px;
+}
+
+/*
+    2
+*/
+.riquadro2{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.riquadrointerno2{
+    width: calc(80% - 40%);
+    height: 80%;
+    background-color: lightblue;
+    align-items: flex-start;
+    height: 300px;
+}
+
+.riquadrointerno2-2{
+    width: calc(80% - 60%);
+    height: 80%;
+    background-color: pink;
+    align-items: flex-end;
+    height: 300px;
+}
+
+/*
+    3
+*/
+.riquadro3{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.riquadrointerno3-3{
+    width: calc(80% - 40%);
+    height: 80%;
+    background-color: lightblue;
+    align-items: flex-start;
+    height: 300px;
+}
+
+.riquadrointerno3{
+    width: calc(80% - 60%);
+    height: 80%;
+    background-color: pink;
+    align-items: flex-end;
+    height: 300px;
+}
+
+/*
+    4
+*/
+.riquadro4{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.riquadrointerno4{
+    width: calc(80% - 40%);
+    height: 80%;
+    background-color: lightblue;
+    align-items: flex-start;
+    height: 300px;
+}
+
+.riquadrointerno4-4{
+    width: calc(80% - 60%);
+    height: 80%;
+    background-color: pink;
+    align-items: flex-end;
+    height: 300px;
+}
+
+/*
+    5
+*/
+.riquadro5{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.riquadrointerno5{
+    width: 60%;
+    height: 80%;
+    background-color: green;
+    align-items: flex-start;
+    height: 500px;
+}

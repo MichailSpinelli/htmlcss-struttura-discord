@@ -1,9 +1,5 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
+/*
 .debug{
     height: 1000px;
 }
@@ -40,10 +36,6 @@
     background-color: yellow;
 }
 
-/*
-    MAIN
-*/
-
 .riquadro1{
     background-color: blue;
     height: 20%;
@@ -59,9 +51,7 @@
     height: 300px;
 }
 
-/*
-    2
-*/
+
 .riquadro2{
     height: 20%;
     display: flex;
@@ -84,9 +74,7 @@
     height: 300px;
 }
 
-/*
-    3
-*/
+
 .riquadro3{
     height: 20%;
     display: flex;
@@ -110,9 +98,7 @@
     height: 300px;
 }
 
-/*
-    4
-*/
+
 .riquadro4{
     height: 20%;
     display: flex;
@@ -135,9 +121,7 @@
     height: 300px;
 }
 
-/*
-    5
-*/
+
 .riquadro5{
     height: 20%;
     display: flex;
@@ -151,4 +135,237 @@
     background-color: green;
     align-items: flex-start;
     height: 500px;
+}
+
+
+.riquadro6{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    align-items: center;
+    max-width: 618.8px;
+}
+
+.riquadrointerno6-1{
+    width: calc(80% - 40%);
+    height: 80%;
+    background-color: pink;
+    height: 300px;
+}
+
+.riquadrointerno6-2{
+    width: calc(80% - 60%);
+    height: 80%;
+    background-color: lightblue;
+    height: 300px;
+    border: solid;
+}
+
+.riquadrointerno6-3{
+    width: calc(80% - 60%);
+    height: 80%;
+    background-color: lightblue;
+    height: 300px;
+    border: solid;
+}
+
+
+.riquadrointerno6-4{
+    width: calc(80% - 60%);
+    height: 80%;
+    background-color: lightblue;
+    height: 300px;
+    border: solid;
+}
+
+.riquadrointerno6-5{
+    width: calc(80% - 60%);
+    height: 80%;
+    background-color: lightblue;
+
+    height: 300px;
+    border: solid;
+}
+
+*/
+
+/*
+    classe
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.my-row{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.my-col-1-6{
+    width: calc((100% / 6) * 1);
+}
+
+.my-col-2-3{
+    width: calc((100% / 6) * 4);
+}
+
+.my-col-2-5{
+    width: calc((100% / 5) * 2);
+}
+
+.my-col-3-5{
+    width: calc((100% / 5) * 3);
+}
+
+.my-col-3-4{
+    width: calc((100% / 4) * 3);
+}
+
+.my-col-1-4{
+    width: calc((100% / 4) * 1);
+}
+
+.gray-container{
+    background-color: lightgray;
+}
+/*
+    HEADER
+*/
+
+.header-top .main-menu-container > *{
+    padding: 10px;
+}
+
+.header-top .main-menu-container > .login-container{
+    text-align: right;
+}
+
+.header-top .main-menu-container > .main-nav{
+    text-align: center;
+}
+.header-top .main-menu-container > .main-nav ul li{
+    display: inline-block;
+}
+
+.header-bottom{
+    padding: 50px 0px;
+}
+
+/*
+    MAIN
+*/
+
+.main-section-row{
+    padding: 40px;
+}
+
+/*
+    FOOTER
+*/
+
+footer{
+    background-color: rgb(7, 1, 14);
+}
+
+.footer-top{
+    padding: 40px;
+}
+
+.footer-top hr{
+    margin-top: 30px;
+}
+
+.footer-bottom .sign-container{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+    DEBUG
+*/
+.debug .header-top{
+    background-color: aquamarine;
+    padding: 10px 0px;
+}
+
+.debug .header-top .my-row{
+    background-color: goldenrod;
+}
+
+.debug .header-top .my-row > *{
+    border: 1px dashed black;
+}
+
+.debug .header-bottom{
+    background-color: blue;
+}
+
+.debug .header-bottom .jumbotron{
+    background-color: fuchsia;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .my-row .my-col-3-5{
+    background-color: aqua;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .my-row .my-col-2-5{
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .main-section-row .big-green{
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 600px;
+}
+
+.debug .footer-top-main-row{
+    background-color: coral;
+}
+
+.debug .footer-top-main-row >* {
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug .footer-top-secondary-row{
+    background-color: cadetblue;
+}
+
+.debug .footer-top-secondary-row >* {
+    border: 1px dashed white;
+    min-height: 400px;
+}
+
+.debug .sign-container{
+    background-color: aquamarine;
+}
+
+.debug .sign-container > *{
+    background-color: pink;
+    border: 1px dashed black;
+    padding: 5px;
 }
